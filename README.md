@@ -1,6 +1,16 @@
 # Data Profiling
 
-* This code takes the top 10,000 rows of each table & view inside of GVR_DEV ERP databases & GVR_IS360_DB_DEV
+* This code takes the top 10,000 rows of each table & view inside of GVR_DEV ERP databases
+* These databases include:
+    * AS400_GER
+    * AX
+    * HFM
+    * MAC-PAC 
+    * PROTHEUS_AR
+    * PROTHEUS_BR
+    * PROTHEUS_CH
+    * QAD
+    * SMS
 
 # Recommendations for Running Code (Important - Please Read!)
 * This code collects data from hundreds of tables and views in large databases. The code will take a very **long** time to load **(hours)** if you're running through all ERP schemas. It is my recommendation to run this code in the background during your day and occassionaly check on if the code cell currently running is complete or not.
